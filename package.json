@@ -1,0 +1,51 @@
+{
+  "name": "scoutmonitor",
+  "version": "0.0.1",
+  "description": "front end monitor",
+  "main": "/src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint . --fix",
+    "build": "cross-env NODE_ENV=production webpack build --config build/webpack.prod.ts"
+  },
+  "keywords": [
+    "monitor"
+  ],
+  "author": "zhangxuefeng",
+  "license": "ISC",
+  "dependencies": {
+    "deepcopy": "^2.1.0",
+    "deepmerge": "^4.2.2",
+    "error-stack-parser": "^2.0.6",
+    "events": "^3.3.0",
+    "json-stringify-safe": "^5.0.1",
+    "mobile-detect": "^1.4.5",
+    "query-string": "^7.0.0",
+    "rrweb": "^0.9.14",
+    "tslib": "^2.2.0",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/events": "^3.0.0",
+    "@types/json-stringify-safe": "^5.0.0",
+    "@types/terser-webpack-plugin": "^5.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "core-js": "^3.15.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.29.0",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
